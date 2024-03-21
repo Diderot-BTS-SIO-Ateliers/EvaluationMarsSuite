@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma petite papeterie</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="actions.js"></script>
+</head>
+<body>
+<div id="page" >
+    <h1>Ma petite papeterie</h1>
+    <div id="articles">
+        <img class="article" src="images/cahier.png">
+        <img class="article" src="images/stylo.png">
+        <img class="article" src="images/scotch.png">
+        <img class="article" src="images/ciseaux.png">
+        <img class="article" src="images/epingles.png">
+        <img class="article" src="images/trombones.png">
+    </div>
+    <div id="panier">
+        <h2 id="titrePanier">Votre panier</h2>
+        <div class="panier" id="ligneCahiers">
+            <img class="bouton" src="images/cahier.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbCahiers">0</p>
+            <img class="bouton" src="images/add.png" onclick="augmenteNbCahiers()">
+            <img class="bouton" src="images/del.png">
+        </div>
+        <div class="panier" id="ligneStylos">
+            <img class="bouton" src="images/stylo.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbStylos">0</p>
+            <img class="bouton" src="images/add.png">
+            <img class="bouton" src="images/del.png">
+        </div>
+        <div class="panier" id="ligneScotchs">
+            <img class="bouton" src="images/scotch.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbScotch">0</p>
+            <img class="bouton" src="images/add.png">
+            <img class="bouton" src="images/del.png">
+        </div>
+        <div class="panier" id="ligneCiseaux">
+            <img class="bouton" src="images/ciseaux.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbCiseaux">0</p>
+            <img class="bouton" src="images/add.png">
+            <img class="bouton" src="images/del.png">
+        </div>
+        <div class="panier" id="ligneEpingles">
+            <img class="bouton" src="images/epingles.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbEpingles">0</p>
+            <img class="bouton" src="images/add.png">
+            <img class="bouton" src="images/del.png">
+        </div>
+        <div class="panier" id="ligneTrombones">
+            <img class="bouton" src="images/trombones.png">
+            <img class="bouton" src="images/sub.png">
+            <p id="nbTrombones">0</p>
+            <img class="bouton" src="images/add.png">
+            <img class="bouton" src="images/del.png">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
